@@ -15,6 +15,7 @@ export default function AgregarTarea({handleAgregarTarea}) {
         type="text"
         value={texto}
         onChange={(e) => setTexto(e.target.value)}
+        style={styles.input}
       />
       <button onClick={handleClick} style={styles.button}>Agregar tarea</button>
     </div>
